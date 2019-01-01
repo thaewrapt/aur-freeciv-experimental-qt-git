@@ -1,0 +1,32 @@
+pkgbase = freeciv-qt-git
+	pkgdesc = A multiuser clone of the famous Microprose game of Civilization, Qt client only (git version)
+	pkgver = 3.0.91.085354a262
+	pkgrel = 1
+	url = http://www.freeciv.org/
+	arch = x86_64
+	license = GPL
+	makedepends = python
+	makedepends = git
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = make
+	makedepends = gcc
+	depends = qt5-base
+	depends = gtk3
+	depends = lua
+	depends = sqlite
+	depends = curl
+	depends = libtool
+	depends = icu
+	depends = hicolor-icon-theme
+	depends = sdl2_mixer
+	depends = libpulse
+	depends = gettext
+	provides = freeciv
+	conflicts = freeciv
+	backup = etc/freeciv/database.lua
+	source = freeciv-qt-git::git+https://github.com/freeciv/freeciv.git
+	sha256sums = SKIP
+
+pkgname = freeciv-qt-git
+
