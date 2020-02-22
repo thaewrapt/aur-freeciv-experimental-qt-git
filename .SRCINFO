@@ -13,7 +13,6 @@ pkgbase = freeciv-qt-git
 	makedepends = gcc
 	depends = qt5-base
 	depends = gtk3
-	depends = lua
 	depends = sqlite
 	depends = curl
 	depends = libtool

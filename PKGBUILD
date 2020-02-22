@@ -11,7 +11,6 @@ arch=('x86_64')
 depends=(
   'qt5-base'
   'gtk3'
-  'lua'
   'sqlite'
   'curl'
   'libtool'
@@ -40,7 +39,6 @@ build() {
   ./autogen.sh \
     --prefix=/usr \
     --sysconfdir=/etc \
-    --enable-sys-lua \
     --enable-client=qt \
     --enable-gitrev \
     --enable-aimodules=experimental \
