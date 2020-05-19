@@ -1,6 +1,6 @@
-pkgbase = freeciv-qt-git
-	pkgdesc = A multiuser clone of the famous Microprose game of Civilization, Qt client only (git version)
-	pkgver = 3.0.91.085354a262
+pkgbase = freeciv-experimental-qt-git
+	pkgdesc = A multiuser clone of the famous Microprose game of Civilization, experimental AI modules, Qt client only (git version)
+	pkgver = 3.0.92.1.096887da13
 	pkgrel = 1
 	url = http://www.freeciv.org/
 	arch = x86_64
@@ -24,8 +24,8 @@ pkgbase = freeciv-qt-git
 	provides = freeciv
 	conflicts = freeciv
 	backup = etc/freeciv/database.lua
-	source = freeciv-qt-git::git+https://github.com/freeciv/freeciv.git
+	source = freeciv-experimental-qt-git::git+https://github.com/freeciv/freeciv.git
 	sha256sums = SKIP
 
-pkgname = freeciv-qt-git
+pkgname = freeciv-experimental-qt-git
 
