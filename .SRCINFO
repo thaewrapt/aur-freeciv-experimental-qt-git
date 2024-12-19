@@ -1,18 +1,13 @@
 pkgbase = freeciv-experimental-qt-git
 	pkgdesc = A multiuser clone of the famous Microprose game of Civilization, experimental AI modules, Qt client only (git version)
-	pkgver = 3.0.92.1.096887da13
+	pkgver = 3.2.92.7.fbf34300c6
 	pkgrel = 1
 	url = http://www.freeciv.org/
 	arch = x86_64
 	license = GPL
 	makedepends = python
 	makedepends = git
-	makedepends = autoconf
-	makedepends = automake
-	makedepends = make
-	makedepends = gcc
-	depends = qt5-base
-	depends = gtk3
+	depends = qt6-base
 	depends = sqlite
 	depends = curl
 	depends = libtool
@@ -21,6 +16,11 @@ pkgbase = freeciv-experimental-qt-git
 	depends = sdl2_mixer
 	depends = libpulse
 	depends = gettext
+	depends = xz
+	depends = zlib
+	depends = zstd
+	depends = lua
+	depends = bzip2
 	provides = freeciv
 	conflicts = freeciv
 	backup = etc/freeciv/database.lua
@@ -28,4 +28,3 @@ pkgbase = freeciv-experimental-qt-git
 	sha256sums = SKIP
 
 pkgname = freeciv-experimental-qt-git
-
